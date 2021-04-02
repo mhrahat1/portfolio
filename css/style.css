@@ -1,0 +1,58 @@
+/*font*/
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+/*font*/
+/*common*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+/*common*/
+.banner{
+	min-height: 100vh;
+	background-image: url(../images/bgp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.b_content{
+	width: 100%;
+	position:absolute;
+	left: 0;
+	right: 0;
+	top:60%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.b_h1{
+	margin: 0;
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	color: transparent;
+	background-image: url(https://media.giphy.com/media/UR6ZXKs8bKhuU/giphy.gif);
+	background-position: center;
+	-webkit-background-clip:text;
+}
+.s_icon{
+	margin-top: 20px;
+}
+.s_icon a{}
+.s_icon a i{
+	margin: 0 5px;
+	height: 50px;
+    width: 50px;
+    background-image: linear-gradient(to right,#EA0950,#AA0953);
+	color: #ffffff;
+    font-size: 35px;
+    border-radius: 50%;
+    line-height: 50px;
+    transition: 0.4s !important;
+}
+.s_icon a i:hover{
+	background: #ffffff !important;
+	color:#000000 !important;
+}
